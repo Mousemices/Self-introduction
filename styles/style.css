@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a{
+    color: #2965f1;
+}
+
+a:hover{
+    color: #fb503b;
+    transition: 0.5s;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+i{
+    font-size: 3rem;
+    padding: 2rem;
+
+}
+.html{
+    color: #FF5733;
+}
+
+.css{
+    color:#2965f1;
+}
+
+.js{
+    color:#f0db4f;
+}
+
+.php{
+    color:#8993be;
+}
+
+.laravel{
+    color:#fb503b;
+}
+
+.vue{
+    color:#42b883;
+}
+
+.react{
+    color:#61dafb;
+}
+
+.bootsrap{
+    color:#0275d8;
+}
+
+.git{
+    color:#f1502f;
+}
+
+.gitkraken{
+    color:#009688;
+}
+
+.npm{
+    color:#cb3837;
+}
+
+.email{
+    color: #cb3837;
+    cursor: pointer;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p{
+    padding: 2rem;
+}
+
+footer p .creator{
+    font-weight: bold;
+}
