@@ -57,6 +57,9 @@ i{
     color:#8993be;
 }
 
+.node {
+    color:#3C873A;
+}
 .laravel{
     color:#fb503b;
 }
@@ -69,8 +72,8 @@ i{
     color:#61dafb;
 }
 
-.bootsrap{
-    color:#0275d8;
+.bootstrap{
+    color:#563d7c;
 }
 
 .git{
