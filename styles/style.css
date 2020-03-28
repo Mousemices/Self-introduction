@@ -12,6 +12,28 @@ header{
     margin: 0 auto;
 }
 
+.title{
+    position: relative;
+}
+
+.fade-in
+{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        top: 2rem;
+
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -91,6 +113,13 @@ i{
 .email{
     color: #cb3837;
     cursor: pointer;
+}
+.skills{
+    display: flex;
+}
+
+.skills div p{
+    text-align: center;
 }
 
 footer{
